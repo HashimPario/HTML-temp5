@@ -1,0 +1,389 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+html,body{
+    font-family: Verdana,sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+body{
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+   
+    display: block;
+}
+div{
+    display: block;
+}
+
+.img1, .img2, .img3, .img4, .img5, .img6{
+    margin-top: -6.5px;
+}
+.my-logo{
+    width: 49.99999%;
+    float: left;
+    height: 700px;   
+    background-color: black;
+    text-align: center;
+    padding: 0.01em 16px;
+}
+.heading, .grid2-heading{
+    padding-top: 50px;
+    /* padding-bottom: 64px; */
+    text-align: center;
+    padding-bottom: 2px;
+}
+.nav-bar{
+    padding-top: 112px;
+    padding-bottom: 64px;
+    text-align: center;
+    color: white;
+}
+.nav-bar > a{
+    color: white;
+    background-color: black;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    display: block;
+    width: 100%;
+    border: none;
+    /* padding: 8px 16px; */
+    overflow: hidden;
+    text-decoration: none;
+    cursor: pointer;
+    white-space: nowrap;
+    text-align: center;
+}
+.nav-bar > a:hover{
+    background-color: blueviolet;
+}
+.avatar-div{
+ 
+    margin: 0 auto;
+}
+.avatar-div > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 47.6%;
+    border-radius: 100%;
+}
+.my-logo > div >h1, .about-me > div >h1, .swing-by > div > h1{
+    color: white;
+    text-align: center;
+    font-weight: 400;
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-size: 36px;
+    display: block;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    line-height: 1.5;
+    /* margin: 10px 0; */
+}
+.contact > div > h1{
+    color: white;
+    text-align: center;
+    font-weight: 400;
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-size: 36px;
+    display: block;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.37em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    line-height: 1.5;
+
+}
+.grid2-heading > h1{
+    color: white;
+    text-align: center;
+    font-weight: 400;
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-size: 30px;
+    display: block;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.43em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    line-height: 1.5;
+    
+}
+.about-me{
+    width: 49.99999%;
+    height: 700px;
+    padding: 0.01 16px;
+    float: left;
+    background-color: #607d8b;
+}
+.lorem{
+    padding: 28px 40px;
+    text-align: left;
+    color: white;
+    line-height: 1.5;
+}
+.lorem > p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: left;
+    color: white;
+}
+.my-work{
+    width: 49.99999%;
+    min-height: 800px;
+    float: left;
+    padding-top: 4px;
+    background-color: #f1f1f1;
+}
+.img1, .img2, .img3, .img4, .img5, .img6{
+    width: 49.99999%;
+    float: left;
+}
+.resume{
+    width: 49.99999%;
+    min-height: 800px;
+    padding-top: 4px;
+    float: left;
+    background-color: #3f51b5;
+}
+
+/* ------ Grid 3 ------ */
+
+.swing-by{
+    width: 49.99999%;
+    height: 700px;
+    float: left;
+    background-color: #616161;
+
+}
+.swing-by-div2{
+    padding-top: 127px;
+    padding-bottom: 64px;
+    text-align: center;
+    color: white;
+}
+.swing-by-div2 > p{
+    background-color: #616161;
+    padding-bottom: 15px;
+}
+.contact{
+    width: 49.99999%;
+    height: 700px;
+    float: left;
+    background-color: #009688;
+}
+.div-form{
+    padding-left: 40px;
+    padding-right: 40px;
+    
+}
+form{
+    padding-top: 42px;
+    padding-bottom: 60px;
+    padding-left: 16px;
+    padding-right: 16px;
+    background-color: white;
+    color: black;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+    /* padding: 0.01em 16px; */
+    margin: 0em;
+    display: block;
+}
+form > div{
+    padding-top: 6px;
+    padding-bottom: 10px;
+    
+}
+label{
+    cursor: default;
+}
+input{
+    padding: 8px;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    margin: 0;
+    line-height: 1.7;
+}
+button{
+    color: white;
+    background-color: #009688;
+    float: right;
+    border: none;
+    padding: 10px 16.5px;
+    font-size: 16px;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+  
+}
+.footer{
+    background-color: black;
+    color: white;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    float: left;
+    width: 100%;
+    padding: 0.01em 16px;
+    
+    /* height: 200px; */
+}
+.footer > p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 15px;
+    line-height: 1.5;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+/* .tab-div{
+    padding-top: 24px;
+    padding-left: 32px;
+    padding-right: 32px;
+    
+    
+    color: white;
+}
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    display: table;
+    text-indent: initial;
+    border-color: gray;
+    color: white;
+    
+
+}
+.white-tr{
+    background-color: white;
+    color: black;
+}
+td{
+    padding-left: 10px;
+    padding-top: 9px;
+    padding-bottom: 8px;
+    padding-right: 10px;
+    
+    display: table-cell;
+    text-align: left;
+    vertical-align: top;
+}*/
+/* th{
+    text-align: left;
+    padding-left: 24px;
+    padding-bottom: 10px;
+}  */
+
+
+.w3-cont{
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 1em;
+    padding-bottom: 0px;
+    
+}
+.w3-res{
+    display: block;
+    overflow-x: auto;
+}
+.w3-table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    display: table;
+}
+table{
+    text-indent: initial;
+    border-color: gray;
+   
+}
+tbody{
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+
+
+}
+tr{
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+   
+    
+}
+td, th{
+    /* padding-top: 8px; */
+    padding-bottom: 8px;
+    padding-left: 16px;
+    padding-right: 8px;
+    display: table-cell;
+    text-align: left;
+    vertical-align: top;
+    color: white;
+    line-height: 1.5;
+} 
+.col1, .col4{
+    padding-top: 8px;
+    /* padding-bottom: 8px; */
+    padding-left: 16px;
+    padding-right: 8px;
+    display: table-cell;
+    text-align: left;
+    vertical-align: top;
+    color: white;
+    line-height: 1.5;
+}
+.col2, .col3,.col5, .col6{
+    padding-top: 8px;
+    /* padding-bottom: 8px; */
+    padding-left: 8px;
+    padding-right: 8px;
+    display: table-cell;
+    text-align: left;
+    vertical-align: top;
+    color: white;
+    line-height: 1.5;
+}
+
+.white-tr > td{
+    background-color: white;
+    color: black;
+
+}
+
+
+
+@media only screen and (max-width: 992px){
+    .tr-hide{
+        visibility: hidden;
+    } 
+}
+
+
+@media only screen and (max-width: 600px){
+    /* .grid1, .grid2{
+        flex-direction: column;
+        
+    } */
+    .my-logo, .about-me, .my-work, .resume, .swing-by, .contact, .img1, .img2{
+        width: 100%;
+        
+    }
+    .img-grid2, .img-grid3{
+        visibility: hidden;
+    } 
+
+}
